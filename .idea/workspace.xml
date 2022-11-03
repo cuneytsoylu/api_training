@@ -4,19 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ad6b33e-d110-4cb8-9a3a-834ead6bd0b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/base_urls/ReqresBaseUrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/get_request/Get01b.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/get_request/Get02b.java" afterDir="false" />
+    <list default="true" id="1ad6b33e-d110-4cb8-9a3a-834ead6bd0b9" name="Changes" comment="02112022">
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get03b.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get04b.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get05b.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get06b.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get08.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base_url/JsonplaceholderBaseUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base_urls/JsonplaceholderBaseUrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base_url/RestfulBaseUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base_urls/RestfulBaseUrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/get_request/Get03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/get_request/Get03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/get_request/Get04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/get_request/Get04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/get_request/Get05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/get_request/Get05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/get_request/Get06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/get_request/Get06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/get_request/Get07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/get_request/Get07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/get_request/Get07.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/get_request/Get07.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base_url/JsonplaceholderBaseUrl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base_url/RestfulBaseUrl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/get_request/Get01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/get_request/Get02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/get_request/Get03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/get_request/Get04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/get_request/Get05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/get_request/Get06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/get_request/Get07.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +50,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.Get02b.test01">
-    <configuration name="Get01b.get01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Get08.get08">
+    <configuration name="Get04b" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="APIBatch81" />
       <extension name="coverage">
         <pattern>
@@ -56,46 +59,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="get_request" />
-      <option name="MAIN_CLASS_NAME" value="get_requests.Get01b" />
-      <option name="METHOD_NAME" value="get01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Get02b.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="APIBatch81" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="get_requests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="get_request" />
-      <option name="MAIN_CLASS_NAME" value="get_request.Get02b" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Get06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="APIBatch81" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="get_requests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="get_request" />
-      <option name="MAIN_CLASS_NAME" value="get_requests.Get06" />
+      <option name="PACKAGE_NAME" value="get_requests" />
+      <option name="MAIN_CLASS_NAME" value="get_requests.Get04b" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Get06.get01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Get05b.get05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="APIBatch81" />
       <extension name="coverage">
         <pattern>
@@ -103,9 +74,25 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="get_request" />
-      <option name="MAIN_CLASS_NAME" value="get_requests.Get06" />
-      <option name="METHOD_NAME" value="get01" />
+      <option name="PACKAGE_NAME" value="get_requests" />
+      <option name="MAIN_CLASS_NAME" value="get_requests.Get05b" />
+      <option name="METHOD_NAME" value="get05" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Get06b.get06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APIBatch81" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="get_requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="get_requests" />
+      <option name="MAIN_CLASS_NAME" value="get_requests.Get06b" />
+      <option name="METHOD_NAME" value="get06" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,7 +106,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="get_request" />
+      <option name="PACKAGE_NAME" value="get_requests" />
       <option name="MAIN_CLASS_NAME" value="get_requests.Get07" />
       <option name="METHOD_NAME" value="get01" />
       <option name="TEST_OBJECT" value="method" />
@@ -127,13 +114,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Get08.get08" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APIBatch81" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="get_requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="get_requests" />
+      <option name="MAIN_CLASS_NAME" value="get_requests.Get08" />
+      <option name="METHOD_NAME" value="get08" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Get02b.test01" />
-        <item itemvalue="JUnit.Get01b.get01" />
+        <item itemvalue="JUnit.Get08.get08" />
         <item itemvalue="JUnit.Get07.get01" />
-        <item itemvalue="JUnit.Get06.get01" />
-        <item itemvalue="JUnit.Get06" />
+        <item itemvalue="JUnit.Get06b.get06" />
+        <item itemvalue="JUnit.Get05b.get05" />
+        <item itemvalue="JUnit.Get04b" />
       </list>
     </recent_temporary>
   </component>
@@ -146,6 +149,14 @@
       <option name="presentableId" value="Default" />
       <updated>1666640688951</updated>
     </task>
+    <task id="LOCAL-00001" summary="02112022">
+      <created>1667388533295</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667388533295</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,5 +169,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="02112022" />
+    <option name="LAST_COMMIT_MESSAGE" value="02112022" />
   </component>
 </project>
