@@ -38,14 +38,14 @@ public class Post01 extends JsonplaceholderBaseUrl {
     @Test
     public void post01(){
         //Set the Url
-        spec.pathParam("1","todos");
+        spec.pathParam("first","todos");
 
         //Set the expected Data
         JsonPlaceHolderTestData obj = new JsonPlaceHolderTestData();
         Map<String,Object> expectedData = obj.expectedDataMethod(55,"Tidy your room",false);
 
         //Send the Request and Get the response
-        Response response = given().spec(spec).contentType(ContentType.JSON).body(expectedData).when().post("/{1}");
+        Response response = given().spec(spec).contentType(ContentType.JSON).body(expectedData).when().post("/{first}");
         response.prettyPrint();
 
 //Do Assertion
