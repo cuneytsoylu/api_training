@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ad6b33e-d110-4cb8-9a3a-834ead6bd0b9" name="Changes" comment="03112022">
-      <change afterPath="$PROJECT_DIR$/src/test/java/base_urls/GoRestBaseUrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/post_reqquest/Post01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_data/GoRestTestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_data/JsonPlaceHolderTestData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/get_requests/Get08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get08.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test_data/a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/post_reqquest/Post01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/post_requests/Post01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,23 +37,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.Get09.get09">
-    <configuration name="Get07.get01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="APIBatch81" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="get_requests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="get_requests" />
-      <option name="MAIN_CLASS_NAME" value="get_requests.Get07" />
-      <option name="METHOD_NAME" value="get01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Get11.get11">
     <configuration name="Get08" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="APIBatch81" />
       <extension name="coverage">
@@ -73,22 +49,6 @@
       <option name="PACKAGE_NAME" value="get_requests" />
       <option name="MAIN_CLASS_NAME" value="get_requests.Get08" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Get08.get08" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="APIBatch81" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="get_requests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="get_requests" />
-      <option name="MAIN_CLASS_NAME" value="get_requests.Get08" />
-      <option name="METHOD_NAME" value="get08" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,13 +84,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Get11.get11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APIBatch81" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="get_requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="get_requests" />
+      <option name="MAIN_CLASS_NAME" value="get_requests.Get11" />
+      <option name="METHOD_NAME" value="get11" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Post01.post01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APIBatch81" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="post_requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="post_requests" />
+      <option name="MAIN_CLASS_NAME" value="post_requests.Post01" />
+      <option name="METHOD_NAME" value="post01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Get11.get11" />
+        <item itemvalue="JUnit.Post01.post01" />
         <item itemvalue="JUnit.Get09.get09" />
         <item itemvalue="JUnit.Get09" />
         <item itemvalue="JUnit.Get08" />
-        <item itemvalue="JUnit.Get08.get08" />
-        <item itemvalue="JUnit.Get07.get01" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667488703459</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="03112022">
+      <created>1667503009938</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667503009938</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
