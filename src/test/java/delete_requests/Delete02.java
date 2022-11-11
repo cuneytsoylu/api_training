@@ -36,24 +36,4 @@ public class Delete02 extends DummyRestApiBaseUrl {
     iv) "message" is "Successfully! Record has been deleted"
 
      */
-    @Test
-    public void delete02(){
-        spec.pathParams("first","delete","second",2);
-        DummyRestApiDeletePojo expectedData = new DummyRestApiDeletePojo("success","2","Successfully! Record has been deleted");
-
-        System.out.println("expectedData = " + expectedData);
-        Response response=given().spec(spec).when().delete("/{first}/{second}");
-        response.prettyPrint();
-        DummyRestApiDeletePojo actualData = ObjectMapperUtils.convertJsonToJava(response.asString(),DummyRestApiDeletePojo.class);
-
-        System.out.println("actualData = " + actualData);
-
-        assertEquals(200,response.getStatusCode());
-        assertEquals(expectedData.getData(),actualData.getData());
-        assertEquals(expectedData.getStatus(),actualData.getStatus());
-        assertEquals(expectedData.getMessage(),actualData.getMessage());
-
-    }
-}
-
 }
