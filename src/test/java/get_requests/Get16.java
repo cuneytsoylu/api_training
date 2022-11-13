@@ -14,7 +14,6 @@ public class Get16 extends DummyRestApiBaseUrl {
            URL: https://dummy.restapiexample.com/api/v1/employees
            HTTP Request Method: GET Request
            Test Case: Type by using Gherkin Language
-
            Assert:  i) Status code is 200
                    ii) There are 24 employees
                   iii) "Tiger Nixon" and "Garrett Winters" are among the employees
@@ -26,10 +25,8 @@ public class Get16 extends DummyRestApiBaseUrl {
     /*
     Given
         https://dummy.restapiexample.com/api/v1/employees
-
     When
         User sends Get request
-
     Then
          i) Status code is 200
     And
@@ -46,9 +43,9 @@ public class Get16 extends DummyRestApiBaseUrl {
 
     @Test
     public void get16(){
-        spec.pathParam("1","employees");
+        spec.pathParam("first","employees");
 
-        Response response=given().spec(spec).when().get("/{1}");
+        Response response=given().spec(spec).when().get("/{first}");
         response.prettyPrint();
 
         //There are 24 employees, "Tiger Nixon" and "Garrett Winters" are among the employees
