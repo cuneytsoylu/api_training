@@ -26,6 +26,7 @@ public class Get17 extends DummyRestApiBaseUrl {
        "employee_age" is 61
    And
        "status" is "success"
+
    And
        "message" is "Successfully! Record has been fetched."
     */
